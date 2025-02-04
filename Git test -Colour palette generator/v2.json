@@ -2422,136 +2422,6 @@
           ],
           "events": [
             {
-              "id": "b1bebd2d-14a7-4d1d-bee5-95d9729997e8",
-              "name": "onClick",
-              "index": 0,
-              "event": {
-                "eventId": "onClick",
-                "message": "Please enter a valid hex color code!",
-                "actionId": "show-alert",
-                "alertType": "info",
-                "runOnlyIf": "{{!(/^(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/.test(components.textinput3.value))}}"
-              },
-              "sourceId": "67ab6d6e-1840-46f6-875e-03e8e800f7f7",
-              "target": "component",
-              "appVersionId": "4635e432-0ec6-48cd-9c45-29d956e357d0",
-              "createdAt": "2025-02-04T04:47:37.929Z",
-              "updatedAt": "2025-02-04T04:47:37.929Z"
-            },
-            {
-              "id": "510221eb-6989-4cad-9017-ed12a428b9f5",
-              "name": "onClick",
-              "index": 0,
-              "event": {
-                "key": "backgroundColor",
-                "value": "fff",
-                "eventId": "onClick",
-                "message": "Hello world!",
-                "actionId": "set-custom-variable",
-                "alertType": "info"
-              },
-              "sourceId": "e37ef653-f052-4e3d-a610-28e51a93ea0f",
-              "target": "component",
-              "appVersionId": "4635e432-0ec6-48cd-9c45-29d956e357d0",
-              "createdAt": "2025-02-04T04:47:37.929Z",
-              "updatedAt": "2025-02-04T04:47:37.929Z"
-            },
-            {
-              "id": "91db1cd9-cd0f-474c-97de-bea60111a580",
-              "name": "onClick",
-              "index": 0,
-              "event": {
-                "key": "textColor",
-                "value": "fff",
-                "eventId": "onClick",
-                "message": "Hello world!",
-                "actionId": "set-custom-variable",
-                "alertType": "info"
-              },
-              "sourceId": "2c3c585c-9a96-4a14-86ed-c7d75ec3f389",
-              "target": "component",
-              "appVersionId": "4635e432-0ec6-48cd-9c45-29d956e357d0",
-              "createdAt": "2025-02-04T04:47:37.929Z",
-              "updatedAt": "2025-02-04T04:47:37.929Z"
-            },
-            {
-              "id": "f2de01c8-cf89-496c-8eba-3cf1e8f385fb",
-              "name": "onClick",
-              "index": 0,
-              "event": {
-                "eventId": "onClick",
-                "message": "Please enter a valid hex color code!",
-                "actionId": "show-alert",
-                "alertType": "info",
-                "runOnlyIf": "{{!(/^(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/.test(components.textinput3.value))}}"
-              },
-              "sourceId": "14e1ea19-0815-421d-9f57-ebfdde777336",
-              "target": "component",
-              "appVersionId": "4635e432-0ec6-48cd-9c45-29d956e357d0",
-              "createdAt": "2025-02-04T04:47:37.929Z",
-              "updatedAt": "2025-02-04T04:47:37.929Z"
-            },
-            {
-              "id": "2eb4065c-b9a9-43dc-94ca-8653d0b818dd",
-              "name": "onClick",
-              "index": 1,
-              "event": {
-                "key": "borderColor",
-                "value": "{{components.textinput4.value}}",
-                "eventId": "onClick",
-                "message": "Hello world!",
-                "queryId": "11653e29-c9f4-4105-a0c8-ae93554f464e",
-                "actionId": "set-custom-variable",
-                "alertType": "info",
-                "queryName": "generateColorCodes",
-                "runOnlyIf": "{{/^(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/.test(components.textinput3.value)}}",
-                "parameters": {}
-              },
-              "sourceId": "14e1ea19-0815-421d-9f57-ebfdde777336",
-              "target": "component",
-              "appVersionId": "4635e432-0ec6-48cd-9c45-29d956e357d0",
-              "createdAt": "2025-02-04T04:47:37.929Z",
-              "updatedAt": "2025-02-04T04:47:37.929Z"
-            },
-            {
-              "id": "bcc67143-3370-419f-aec6-fcfba860cf59",
-              "name": "onClick",
-              "index": 0,
-              "event": {
-                "key": "borderColor",
-                "value": "ffffff00",
-                "eventId": "onClick",
-                "message": "Hello world!",
-                "actionId": "set-custom-variable",
-                "alertType": "info"
-              },
-              "sourceId": "2acb1cf6-cecf-4325-ac87-5c54ee37c5f6",
-              "target": "component",
-              "appVersionId": "4635e432-0ec6-48cd-9c45-29d956e357d0",
-              "createdAt": "2025-02-04T04:47:37.929Z",
-              "updatedAt": "2025-02-04T04:47:37.929Z"
-            },
-            {
-              "id": "37380a7f-7104-4b82-8613-9b735bb4a1b3",
-              "name": "onClick",
-              "index": 1,
-              "event": {
-                "eventId": "onClick",
-                "message": "Hello world!",
-                "queryId": "22a7d142-82fa-4e93-bb8f-a04fd0d89413",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "generateColorCodes",
-                "runOnlyIf": "{{/^(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/.test(components.textinput1.value)}}",
-                "parameters": {}
-              },
-              "sourceId": "7e11cb37-4f7a-4a2b-bc09-ef06509cc306",
-              "target": "component",
-              "appVersionId": "4635e432-0ec6-48cd-9c45-29d956e357d0",
-              "createdAt": "2025-02-04T04:47:37.929Z",
-              "updatedAt": "2025-02-04T04:47:37.929Z"
-            },
-            {
               "id": "3c2b749f-c6d1-4753-a65c-ea7e6d814803",
               "name": "onClick",
               "index": 0,
@@ -2794,6 +2664,136 @@
                 "parameters": {}
               },
               "sourceId": "67ab6d6e-1840-46f6-875e-03e8e800f7f7",
+              "target": "component",
+              "appVersionId": "4635e432-0ec6-48cd-9c45-29d956e357d0",
+              "createdAt": "2025-02-04T04:47:37.929Z",
+              "updatedAt": "2025-02-04T04:47:37.929Z"
+            },
+            {
+              "id": "b1bebd2d-14a7-4d1d-bee5-95d9729997e8",
+              "name": "onClick",
+              "index": 0,
+              "event": {
+                "eventId": "onClick",
+                "message": "Please enter a valid hex color code!",
+                "actionId": "show-alert",
+                "alertType": "info",
+                "runOnlyIf": "{{!(/^(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/.test(components.textinput3.value))}}"
+              },
+              "sourceId": "67ab6d6e-1840-46f6-875e-03e8e800f7f7",
+              "target": "component",
+              "appVersionId": "4635e432-0ec6-48cd-9c45-29d956e357d0",
+              "createdAt": "2025-02-04T04:47:37.929Z",
+              "updatedAt": "2025-02-04T04:47:37.929Z"
+            },
+            {
+              "id": "510221eb-6989-4cad-9017-ed12a428b9f5",
+              "name": "onClick",
+              "index": 0,
+              "event": {
+                "key": "backgroundColor",
+                "value": "fff",
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "actionId": "set-custom-variable",
+                "alertType": "info"
+              },
+              "sourceId": "e37ef653-f052-4e3d-a610-28e51a93ea0f",
+              "target": "component",
+              "appVersionId": "4635e432-0ec6-48cd-9c45-29d956e357d0",
+              "createdAt": "2025-02-04T04:47:37.929Z",
+              "updatedAt": "2025-02-04T04:47:37.929Z"
+            },
+            {
+              "id": "91db1cd9-cd0f-474c-97de-bea60111a580",
+              "name": "onClick",
+              "index": 0,
+              "event": {
+                "key": "textColor",
+                "value": "fff",
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "actionId": "set-custom-variable",
+                "alertType": "info"
+              },
+              "sourceId": "2c3c585c-9a96-4a14-86ed-c7d75ec3f389",
+              "target": "component",
+              "appVersionId": "4635e432-0ec6-48cd-9c45-29d956e357d0",
+              "createdAt": "2025-02-04T04:47:37.929Z",
+              "updatedAt": "2025-02-04T04:47:37.929Z"
+            },
+            {
+              "id": "f2de01c8-cf89-496c-8eba-3cf1e8f385fb",
+              "name": "onClick",
+              "index": 0,
+              "event": {
+                "eventId": "onClick",
+                "message": "Please enter a valid hex color code!",
+                "actionId": "show-alert",
+                "alertType": "info",
+                "runOnlyIf": "{{!(/^(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/.test(components.textinput3.value))}}"
+              },
+              "sourceId": "14e1ea19-0815-421d-9f57-ebfdde777336",
+              "target": "component",
+              "appVersionId": "4635e432-0ec6-48cd-9c45-29d956e357d0",
+              "createdAt": "2025-02-04T04:47:37.929Z",
+              "updatedAt": "2025-02-04T04:47:37.929Z"
+            },
+            {
+              "id": "2eb4065c-b9a9-43dc-94ca-8653d0b818dd",
+              "name": "onClick",
+              "index": 1,
+              "event": {
+                "key": "borderColor",
+                "value": "{{components.textinput4.value}}",
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "queryId": "11653e29-c9f4-4105-a0c8-ae93554f464e",
+                "actionId": "set-custom-variable",
+                "alertType": "info",
+                "queryName": "generateColorCodes",
+                "runOnlyIf": "{{/^(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/.test(components.textinput3.value)}}",
+                "parameters": {}
+              },
+              "sourceId": "14e1ea19-0815-421d-9f57-ebfdde777336",
+              "target": "component",
+              "appVersionId": "4635e432-0ec6-48cd-9c45-29d956e357d0",
+              "createdAt": "2025-02-04T04:47:37.929Z",
+              "updatedAt": "2025-02-04T04:47:37.929Z"
+            },
+            {
+              "id": "bcc67143-3370-419f-aec6-fcfba860cf59",
+              "name": "onClick",
+              "index": 0,
+              "event": {
+                "key": "borderColor",
+                "value": "ffffff00",
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "actionId": "set-custom-variable",
+                "alertType": "info"
+              },
+              "sourceId": "2acb1cf6-cecf-4325-ac87-5c54ee37c5f6",
+              "target": "component",
+              "appVersionId": "4635e432-0ec6-48cd-9c45-29d956e357d0",
+              "createdAt": "2025-02-04T04:47:37.929Z",
+              "updatedAt": "2025-02-04T04:47:37.929Z"
+            },
+            {
+              "id": "37380a7f-7104-4b82-8613-9b735bb4a1b3",
+              "name": "onClick",
+              "index": 1,
+              "event": {
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "queryId": "22a7d142-82fa-4e93-bb8f-a04fd0d89413",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "generateColorCodes",
+                "runOnlyIf": "{{/^(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})$/.test(components.textinput1.value)}}",
+                "parameters": {}
+              },
+              "sourceId": "7e11cb37-4f7a-4a2b-bc09-ef06509cc306",
               "target": "component",
               "appVersionId": "4635e432-0ec6-48cd-9c45-29d956e357d0",
               "createdAt": "2025-02-04T04:47:37.929Z",
